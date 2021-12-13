@@ -40,8 +40,9 @@ Flashing with a cheap 3V3 UART FTDI adapter:
 
 Attached is the lcs1.yaml file for compiling ESPHome and has the follwoing fcuntionalities:
 
-    Remote switch on/off relay
-    Red LED switches on/off according to relay state
+    Remotely toggle relay
+    Toggle relay with push button
+    Red LED toggles according to relay state
     White LED switches on when device is connected to WLAN
 
 But feel free to change the file to your needs.
