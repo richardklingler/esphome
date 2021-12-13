@@ -28,5 +28,23 @@ The pinout looks like:
 
 ### ESP-Wroom-02D module
 
+Gladly the ESP-WROOM-02 module PCB contains headers for flashing. You could either use an isolated 230V AC transformer for powering during flashing or pwoer the ESP-WROOM-02D externally from a 3V3 power supply. But beware that most 3V3 UART adapters can't handle the required current for flashing.
+
 ![Swisscom Smart Switch Pinout](images/Wroom_Pinout.jpg)
+
+Flashing with a cheap 3V3 UART FTDI adapter:
+
+![Swisscom Smart Switch Pinout](images/Flashing.jpg)
+
+### ESPHome file
+
+Attached is the lcs1.yaml file for compiling ESPHome and has the follwoing fcuntionalities:
+
+    Remote switch on/off relay
+    Red LED switches on/off according to relay state
+    White LED switches on when device is connected to WLAN
+
+But feel free to change the file to your needs.
+
+Happy ESPHoming ;-)
 
