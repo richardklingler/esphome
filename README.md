@@ -1,2 +1,2 @@
-# esphome
+## esphome
 Making devices run ESPHome
