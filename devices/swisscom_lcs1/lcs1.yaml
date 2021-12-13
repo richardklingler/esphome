@@ -1,0 +1,79 @@
+esphome:
+  name: lcs1-01
+  platform: ESP8266
+  board: esp_wroom_02
+
+wifi:
+  ssid: "MySSID"
+  password: "MyPassword"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "LCS1 Fallback Hotspot"
+    password: "password"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+time:
+  - platform: homeassistant
+    id: mytime
+    on_time:
+      - cron: '* * * * * *'
+        then:
+          if:
+            condition:
+              wifi.connected:
+            then:
+              if:
+                condition:
+                  switch.is_off: mystrom_white_led
+                then:
+                  - switch.turn_on: mystrom_white_led
+            else:
+              if:
+                condition:
+                  switch.is_on: mystrom_white_led
+                then:
+                  - switch.turn_off: mystrom_white_led
+
+
+switch:
+  - platform: gpio
+    name: "Swisscom LCS1"
+    pin: GPIO4
+    icon: "mdi:power-socket-fr"
+    id: mystrom_relay
+    on_turn_on:
+      - switch.turn_on: mystrom_red_led
+    on_turn_off:
+      - switch.turn_off: mystrom_red_led
+  - platform: gpio
+    id: mystrom_red_led
+    pin:
+      number: GPIO13
+      inverted: yes
+  - platform: gpio
+    id: mystrom_white_led
+    pin:
+      number: GPIO14
+      inverted: yes
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO12
+      inverted: yes
+    name: "myStrom Button"
+    filters:
+      - delayed_on: 20ms
+    on_press:
+      then:
+        - switch.toggle: mystrom_relay
