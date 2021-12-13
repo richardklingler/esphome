@@ -25,3 +25,8 @@ The pinout looks like:
     Psuh button
 
 ![Swisscom Smart Switch Pinout](images/PCB_Pinout.jpg)
+
+### ESP-Wroom-02D module
+
+![Swisscom Smart Switch Pinout](images/Wroom_Pinout.jpg)
+
