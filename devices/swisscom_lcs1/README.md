@@ -1,5 +1,7 @@
 ## Swisscom LCS1 Smart Switch
 
+Thanks to Patrick Frey for sponsoring the Swisscom Smart Switch :-)
+
 ![Swisscom Smart Switch](images/Swisscom_Smart_Switch.jpg)
 
 The Swisscom Smart Switch can be thought of as the little brother to the myStrom WLAN Switch which uses an ESP32 chip.
