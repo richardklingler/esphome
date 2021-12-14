@@ -1,5 +1,4 @@
-## esphome
-Making devices run ESPHome
+## Making devices run ESPHome
 
 Only projects from sponsored deevcies will be published. If you have a special need for a component or a device that should be made ESPHome compatible feel free to make a donation or sponsor a device through the sponsor links at the right.
 
