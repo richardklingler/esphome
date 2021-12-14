@@ -11,3 +11,9 @@ So far only one device has been sponsored and therefor published:
 ![Swisscom Smart Switch](images/Swisscom_Smart_Switch.jpg)
 
     Sponsor:  Patrick Frey, Switzerland
+
+### Unsponsored devices/components
+
+#### myStrom WLAN Switch
+
+![myStrom WLAN Switch](images/myStrom_WLAN.jpg)
