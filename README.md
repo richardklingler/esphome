@@ -20,3 +20,4 @@ So far only one device has been sponsored and therefor published:
 |--------|-------|----------|
 |![myStrom WLAN Switch](images/myStrom_WLAN.jpg)|myStrom WLAN | ESP32 |
 |![myStrom Motion](images/myStrom_Motion.png)|myStrom Motion | ESP32 |
+|![Mi Smart Fan](images/mi_smart_standing_fan.jpg)|Mi Smart Standing Fan 1C | ESP8266 |
