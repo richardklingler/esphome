@@ -16,8 +16,7 @@ So far only one device has been sponsored and therefor published:
 
 #### myStrom WLAN Switch
 
-![myStrom WLAN Switch](images/myStrom_WLAN.jpg)
-
 |Picture |Device |Chip used |
 |--------|-------|----------|
 |![myStrom WLAN Switch](images/myStrom_WLAN.jpg)|myStrom WLAN | ESP32 |
+|![myStrom Motion](images/myStrom_Motion.jpg)|myStrom Motion | ESP32 |
