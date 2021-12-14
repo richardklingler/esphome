@@ -7,7 +7,7 @@ So far only one device has been sponsored and therefor published:
 
 ### Swisscom Smart Switch
 
-![Swisscom Smart Switch](devices/swisscom_lcs1/images/Screws.jpg)
+![Swisscom Smart Switch](images/Swisscom_Smart_Switch.jpg)
 
     Sponsor:  Patrick Frey, Switzerland
 
