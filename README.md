@@ -4,7 +4,9 @@ Only projects from sponsored deevcies will be published. If you have a special n
 
 So far only one device has been sponsored and therefor published:
 
-### [Swisscom Smart Switch](devices/swisscom_lcs1/)
+### Sponsored devices/components
+
+#### [Swisscom Smart Switch](devices/swisscom_lcs1/)
 
 ![Swisscom Smart Switch](images/Swisscom_Smart_Switch.jpg)
 
