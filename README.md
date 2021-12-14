@@ -20,4 +20,4 @@ So far only one device has been sponsored and therefor published:
 
 |Picture |Device |Chip used |
 |--------|-------|----------|
-|(images/myStrom_WLAN.jpg)|myStrom WLAN | ESP32 |
+|![myStrom WLAN Switch](images/myStrom_WLAN.jpg)|myStrom WLAN | ESP32 |
