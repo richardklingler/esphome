@@ -14,7 +14,7 @@ So far only one device has been sponsored and therefor published:
 
 ### Unsponsored devices
 
-|Picture |Device |Chip used |
+|Picture |Device |ESP used |
 |--------|-------|----------|
 |![myStrom WLAN Switch](images/myStrom_WLAN.jpg)|myStrom WLAN | ESP32 |
 |![myStrom Motion](images/myStrom_Motion.png)|myStrom Motion | ESP32 |
@@ -24,5 +24,5 @@ So far only one device has been sponsored and therefor published:
 
 |Picture |Device |Chip used |
 |--------|-------|----------|
-|![WT32-SC01](images/wt32-sc01.jpeg)|WT32-SC01 | ESP32/ST7796S/FT6336 |
+|![WT32-SC01](images/wt32-sc01.jpeg)|WT32-SC01 | ESP32 / ST7796S / FT6336 |
 |![LS013](images/sharp_memory.jpg)|Sharp Memory Display | LS013 |
