@@ -12,12 +12,16 @@ So far only one device has been sponsored and therefor published:
 
     Sponsor:  Patrick Frey, Switzerland
 
-### Unsponsored devices/components
-
-#### myStrom WLAN Switch
+### Unsponsored devices
 
 |Picture |Device |Chip used |
 |--------|-------|----------|
 |![myStrom WLAN Switch](images/myStrom_WLAN.jpg)|myStrom WLAN | ESP32 |
 |![myStrom Motion](images/myStrom_Motion.png)|myStrom Motion | ESP32 |
 |![Mi Smart Fan](images/mi_smart_standing_fan.jpg)|Mi Smart Standing Fan 1C | ESP8266 |
+
+### Unsponsored components
+
+|Picture |Device |Chip used |
+|--------|-------|----------|
+|![WT32-SC01](images/wt32-sc01.jpeg)|WT32-SC01 | ESP32/ST7796S |
